@@ -1,6 +1,5 @@
 # olist_ecommerce_analysis
-# 📊 Analyse de la Performance Logistique en E-commerce (Olist)  
-# 📊 Improving Delivery Performance in E-commerce (Olist)
+# 📊 Analyse de la Performance Logistique en E-commerce / Improving Delivery Performance in E-commerce (Olist)
 
 ---
 
