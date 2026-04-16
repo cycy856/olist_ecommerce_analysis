@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Données brutes (trop lourdes pour GitHub)
+data/raw/
+data/cleaned/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environnement virtuel
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Power BI temporaire
+*.pbix.tmp
