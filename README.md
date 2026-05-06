@@ -42,18 +42,14 @@ Delivery delays can:
 ## 🧠 Méthodologie / Methodology
 
 **FR :**
-1. Exploration des données  
-2. Nettoyage (Python)  
-3. Intégration (Talend → MySQL)  
-4. Analyse (SQL)  
-5. Visualisation (Power BI)  
+1. Exploration des données (Python)
+2. Nettoyage et analyse (Python)    
+3. Visualisation (Power BI)  
 
 **EN :**
-1. Data exploration  
-2. Data cleaning (Python)  
-3. Data integration (Talend → MySQL)  
-4. Data analysis (SQL)  
-5. Data visualization (Power BI)  
+1. Data exploration (Python)
+2. Data cleaning and analysis (Python)  
+3. Data visualization (Power BI)  
 
 ---
 
@@ -103,10 +99,8 @@ Delivery delays can:
 ## 🛠️ Technologies utilisées / Tools
 
 - Python (pandas, matplotlib, seaborn)  
-- SQL (MySQL)  
-- Talend Open Studio  
 - Power BI  
-- Excel  
+
 
 ---
 
@@ -118,13 +112,16 @@ Delivery delays can:
 ## 📁 Structure du projet / Project Structure
 
 olist-ecommerce-analysis/
-│
 ├── data/
+│   ├── raw/        # CSV originaux
+│   └── cleaned/    # CSV nettoyés
 ├── notebooks/
-├── sql/
-├── talend/
+│   ├── 01_exploration.ipynb
+│   ├── 02_cleaning.ipynb
+│   └── 03_analysis.ipynb
 ├── powerbi/
-└── docs/
+│   └── olist_dashboard.pbix
+└── docs/   # Graphiques exportés par Python
 
 
 ---
@@ -132,13 +129,7 @@ olist-ecommerce-analysis/
 ## 🚀 Compétences / Skills
 
 - Data cleaning  
-- SQL analysis  
 - Data visualization  
 - Business analysis  
 - End-to-end data project  
 
----
-
-## 📬 Contact
-
-N’hésitez pas à me contacter sur LinkedIn / Feel free to connect on LinkedIn!
